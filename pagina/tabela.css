@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.topo{
+    
+    width: 100%;
+    margin: 0px auto;
+    padding: 35px 0px;
+    background-color: #2f86d6;
+    padding: 35px 0px;
+}
+.topo .container-topo{
+    max-width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    min-width: 300px;
+    display: flex;
+}
+.logo img{
+    width: 80px;
+    margin-right: 5px;
+}
+
+
+.logo .nome{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+
+}
+.logo .slogan{
+    font-size: 16px;
+    color: #fff;
+}
+.topo .container .links-topo{
+    text-align: right;
+    padding: 30px 0px;
+    max-width: 600px;
+}
+.links-topo a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.tabela-de-precos{
+    background-color: #fff;
+    width: 100%;
+    padding: 100px 0px;
+}
+table{
+    width: 100%;
+    box-shadow: 0px 0px 20px gray;
+}table tr{
+    padding: 15px;
+}
+
+table th p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+}
+th h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+td p{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    color: #000000;
+}
+td div{
+    margin: 0px auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2f86d6;
+}
+.destaque{
+    background-color: #f1f3f7;
+
+}
+.p p{
+    font-size: 15px ;
+    text-align: left;
+}
+.secao-rodape{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2f86d6;
+}
+
+.secao{
+    padding: 100px 0px;
+}
+.secao .logo{
+    width: 320px;
+    margin: 0 auto;
+}
+.secao .p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.rodape{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
+.rodape strong{
+    color: #2f86d6;
+}
